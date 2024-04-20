@@ -7,3 +7,14 @@ Content-Type: application/json
   "location": "A test location",
   "dateTime": "2025-01-01T15:30:00.000Z"
 }
+###
+
+POST http://localhost:8080/events
+Content-Type: application/json
+
+{
+  "name": "Test event2",
+  "description": "Test event number 2",
+  "location": "Second test location",
+  "dateTime": "2025-01-10T15:30:00.000Z"
+}
