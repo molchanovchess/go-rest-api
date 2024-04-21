@@ -15,7 +15,7 @@ type Event struct {
 	UserID      int
 }
 
-var events = []Event{}
+// var events = []Event{}
 
 func (e Event) Save() error {
 	query := `
@@ -35,8 +35,9 @@ func (e Event) Save() error {
 		return err
 	}
 
-	id, err := result.LastInsertId()
-	e.ID = id
+	// id, err := result.LastInsertId()
+	_, err = result.LastInsertId()
+	// e.ID = id
 	return err
 }
 
