@@ -1,6 +1,6 @@
 POST http://localhost:8080/events
 Content-Type: application/json
-Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3QyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzEzODI0MjMwLCJ1c2VySWQiOjJ9.OHDlIbEeF-G_uN58rJbK515aCF_M7VacHzFHA7gpZ4s
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3QyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzEzOTA3MDY1LCJ1c2VySWQiOjJ9.2p6Ka7l5cNfNyXsGLWXzQ3Qy-ZR9lcU3uQrjNdrE20M
 
 {
   "name": "Test event antother , maybe five :)!!!!",
